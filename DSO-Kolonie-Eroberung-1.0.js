@@ -62,95 +62,95 @@
 
     // CSS-Styling für die Tabelle
     const css = `
-        #kampfliste-container {
-            position: fixed;
-            top: 50px;
-            right: 50px;
-            width: 28vw;
-            height: 100vh;
-            background-color: rgba(0, 0, 0, 0.9);
-            color: red;
-            border: 1px solid #ccc;
-            z-index: 9999;
-            font-size: 12px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            overflow: auto;
-        }
+#kampfliste-container {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 20vw; /* Adjust width as needed */
+    max-height: 90vh; /* Ensure it fits within the viewport */
+    background-color: rgba(0, 0, 0, 0.9);
+    color: red;
+    border: 1px solid #ccc;
+    z-index: 9999;
+    font-size: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+}
 
-        #kampfliste-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: #444;
-            color: cyan;
-            padding: 5px 10px;
-            cursor: move;
-        }
+#kampfliste-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: cyan;
+    padding: 5px 10px;
+    cursor: move;
+}
 
-        #kampfliste-title {
-            font-size: 20px;
-            font-weight: bold;
-            margin: 0;
-        }
+#kampfliste-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
 
-        #kampfliste-overlay {
-            width: 100%;
-            border-collapse: collapse;
-            overflow-y: auto; /* Tabelle scrollbar */
-        }
+#kampfliste-overlay {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-y: auto; /* Make the table scrollable */
+}
 
-        #kampfliste-overlay th, #kampfliste-overlay td {
-            border: 1px solid black;
-            padding: 4px;
-            text-align: left;
-        }
+#kampfliste-overlay th, #kampfliste-overlay td {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: left;
+}
 
-        #kampfliste-overlay th {
-            background-color: #555;
-        }
+#kampfliste-overlay th {
+    background-color: #555;
+}
 
-        #kampfliste-buttons {
-            display: flex;
-            gap: 5px;
-        }
+#kampfliste-buttons {
+    display: flex;
+    gap: 5px;
+}
 
-        #button-move-up, #button-move-down {
-            background: green;
-            color: white;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
+#button-move-up, #button-move-down {
+    background: green;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
 
-        #button-move-up:hover, #button-move-down:hover {
-            background: gold;
-            color: green;
-        }
+#button-move-up:hover, #button-move-down:hover {
+    background: gold;
+    color: green;
+}
 
-        #button-close {
-            background: red;
-            color: white;
-            border: none;
-            font-size: 24px;
-            font-weight: bold;
-            cursor: pointer;
-            padding: 5px 10px;
-            border-radius: 5px;
-            width: 48px;
-        }
+#button-close {
+    background: red;
+    color: white;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 48px;
+}
 
-        #button-close:hover {
-            background: orange;
-            color: green;
-        }
+#button-close:hover {
+    background: orange;
+    color: green;
+}
 
-        select {
-            width: 100%;
-            padding: 5px;
-            background-color: #fff;
-        }
+select {
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+}
 
     `;
 
