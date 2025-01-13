@@ -120,7 +120,7 @@
                 "Räuberbogenschützen": { values: [20, 48, 38, 47, 56, 65] },
                 "Räuberrekruten": { values: [20, 26, 32, 38, 44, 50] },
                 "Raufbolde": { values: [20, 31, 42, 53, 64, 75] },
-                "Wachhunde": { // habe ich nicht verstanden, nach deiner berechnung habe ich diese Logic! Sonst wie andere Einheiten bitte!
+                "Wachhunde": { // habe ich nicht verstanden, nach deiner Berechnung habe ich diese Logic! Sonst wie andere Einheiten bitte!
                     values: [ // anzeige demnach falsch bitte ohne <br>
                         "10<br>10<br>10<br>10",
                         "16<br>16<br>16<br>14",
