@@ -10,7 +10,7 @@
 (function () {
     'use strict';
 
-    // ===== HTML BEREICH =====
+    // ===== HTML BEREICH BEISPIEL =====
     const html = `
         <div id="community-overlay">
             <div id="overlay-header">
