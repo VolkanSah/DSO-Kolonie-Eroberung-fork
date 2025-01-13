@@ -172,7 +172,7 @@
 
         initializeDropdownLogic();
 
-        // ===== BASIS-FUNKTIONEN ===== FINGER WEG!
+        // ===== BASIS-FUNKTIONEN ===== FINGER WEG ===== !
         let isDragging = false;
         let currentX = parseInt(localStorage.getItem('overlayX') || '50');
         let currentY = parseInt(localStorage.getItem('overlayY') || '50');
