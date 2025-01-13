@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.1
 // @description  Basis-Template für Community Overlays mit Drag & Drop und Berechnungslogik
-// @author       YourName
+// @author       Calimero_28 & SirDafiplug
 // @match        https://www.diesiedleronline.de/de/spielen
 // @grant        none
 // ==/UserScript==
